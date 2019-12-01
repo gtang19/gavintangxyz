@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Cart</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/weewoo.jpg" alt="No Trust in Billing Process - $5000.00">
+        <img src="/images/mybill.png" alt="MyBill - $0.00">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Shopping Cart </h1>
+        <dl>
+          <dt>No Trust in Billing Process</dt>
+          <dd>$5000.00</dd>
+          <dt>MyBill</dt>
+          <dd>$0.00</dd>
+          <strong>
+              <dt>Total</dt>
+              <dd>$5000.00</dd>
+          </strong>
+          
+        </dl>
+        <p class="item-description">
+            MyBill successfully addresses the problem of trust in the healthcare administrative process by allowing healthcare to behave like other industries. By utilizing AI to predict the cost, the experience for the patient can be simplified immensely.
+        </p>
+        <div class="item-buy">
+          <h2>Time</h2>
+          <p>Using prediction, the patient no longer has to suffer through a several month billing period. Instead, they can pay immediately and be done. The long period was a significant source of distrust. Additionally, by taking care of the patient early, the patient is no longer stuck in the middle of the chaos between the several players in the industry, making the patient experience better while simplifying the process for everyone.</p>
+          <h2>Clarity</h2>
+          <p>People don’t trust bills because most of the bills they get are misleading. If most of the bills that arrive aren’t actually bills, how can a patient possibly trust the process? By providing a single number early on, there is a clear expectation. Pay money for services received – just like in every other market.</p>
+          <h2>User Experience</h2>
+          <p>MyBill is just a framework that enables innovative user experiences to be designed. By allowing the process to function like a modern transaction, an entirely new billing experience could be built. People have a lot of trust for Amazon, and a lot of that has to do with the user experience. You pay for something online, and then you get it – there’s a clear connection of value. With MyBill, a price is available immediately, so you could walk through the services you need with your doctor, adding your treatments to a virtual cart, and then know exactly what you need to pay when you check out.</p>
+          <a href="/thank-you.html" buy-button
+            class= "btn-pink">
+            Order Now
+        </a>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

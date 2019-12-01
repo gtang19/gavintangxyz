@@ -1,0 +1,97 @@
+/* Core Styles */
+body {}
+
+/* showcase */
+
+#showcase {
+    min-height: 350px;
+}
+
+
+#showcase .bg-image {
+    position: absolute;
+    background: #242628 url("/images/med-landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+    opacity: 0.25;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+.content-section .content-wrap {
+    padding: 0 1.5em;
+}
+
+.content-section {
+    padding: 1em 0 2em 0;
+    background-color: #eaeaea;
+    color: #17181A;
+}
+
+.card {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: #eaeaea;
+    color: #17181A;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.card-header {
+    font-size: 20px;
+}
+
+.card-content {
+    padding-bottom: 1.5em;
+}
+
+
+.toshop .btn-blue {
+    margin: 20px;
+    width: 200px;
+}
+
+footer {
+    background-color: #011123;
+    min-height: 25vh;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .card img {
+        height: 180px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .content-wrap {
+        grid-column: 2/4;
+    }
+
+    #showcase h1 {
+        padding-top: 75px;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        /* grid-template-columns: 1fr repeat(4, minmax(auto,15em)) 1fr; */
+    }
+
+    .card {
+        width: 250px;
+    }
+
+}

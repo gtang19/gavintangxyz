@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Language Barrier</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/barrier.jpg" alt="The Language Barrier">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Language Barrier</h1>
+        <p class="item-price">$34.00</p>
+        <p class="item-description">The healthcare process is confusing enough, even if you speak English fluently. It is especially confusing if you are less comfortable with the language. If people with PhDs are struggling to comprehend billing, then how could anyone else be expected to fully understand their bill? The language of billing is complex and does not translate well.</p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>Looking through the provided data, we determined that there may be a relationship between being Hispanic and opinions on the billing system. Starting with the broad assumption that some Hispanic people would be less familiar with English, we started talking to people about the language used in bills. What we found was that the language barrier is less between English and other languages, but instead between medical jargon and any language people can actually read.</p>
+          <h2>Reviews</h2>
+          <p>6.8/10 – this problem has potential. The language barrier for non-native English speakers is likely still a factor, we just didn’t seek out enough non-native English speakers to gain insight from.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Bills are very confusing</li>
+            <li>Medical jargon causes frustration</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

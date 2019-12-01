@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Decision Making Complexity</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/child.jpg" alt="Having children makes everything more complicated">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Decision Making Complexity</h1>
+        <p class="item-price">$30.00</p>
+        <p class="item-description">Normally when you buy something you consider its value to you, and if it’s worth spending the money on. In healthcare situations, it’s often more difficult to make this decision, because prices are high, and the services are often necessary to be healthy. This is especially true when you’re responsible for someone else’s health, such as a spouse, or a child.</p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>People we talked to felt that they had limited power in the healthcare process. For parents, the health of their child is not much of a choice, so they felt forced to agree to any treatment and accept the burden of any bill that shows up later.</p>
+          <h2>Reviews</h2>
+          <p>8/10 – we think this is getting closer to the root of the problem. The ability to choose what to purchase is a fundamental component of our economic system and understanding how healthcare plays the game differently is valuable.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>People feel trapped by healthcare</li>
+            <li>Healthcare doesn't behave the same way as other industries</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

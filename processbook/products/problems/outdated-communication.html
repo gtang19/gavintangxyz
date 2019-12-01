@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Outdated Communication</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/oldphone.jpg" alt="An old phone">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Outdated Communication</h1>
+        <p class="item-price">$42.00</p>
+        <p class="item-description">When hospitals communicate with patients, it’s usually through phone calls, or an absurd amount of paper in the mail. With so many modern communications platforms available, why isn’t the healthcare field taking advantage?</p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>People we talked to don’t want tons of paper in their mailbox – they mostly ignore it anyway. They don’t want automated phone calls. They certainly don’t want to have to login to a portal or an app to view information if it can be avoided. Patients want to just get an email or maybe a text that contains the information they actually care about.</p>
+          <h2>Reviews</h2>
+          <p>7/10 – this problem seems to be less about the communication technology and more about what information is being included. Patients are frustrated by how much useless information they receive over the course of the billing process; extraneous information that obscures how much they need to pay.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>No Apps</li>
+            <li>Patients are most concerned with what they actually owe</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

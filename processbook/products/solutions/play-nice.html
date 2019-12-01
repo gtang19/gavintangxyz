@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Make Insurance and Hospitals Play Nice</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/getalong.jpg" alt="We would need a very large shirt to fit a hospital in it">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Make Insurance and Hospitals Play Nice</h1>
+        <p class="item-price">$42.00</p>
+        <p class="item-description">
+            There are a lot of parties involved in healthcare and we can’t get rid of them, but can we make them play nice? There’s what seems to be a constant battle between providers and insurance, is there any way to tone down the fighting a little bit?
+        </p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>Cleveland Clinic as a major hospital has more leverage than an individual patient. It’s in the best interest of both the hospital and insurance company to negotiate hard, but this hurts the patient. Theoretically, both parties should benefit from serving the best interests of the patient. Is there a way Cleveland Clinic can negotiate a less antagonistic relationship between players involved in healthcare?</p>
+          <h2>Reviews</h2>
+          <p>8/10 – there’s something here worth investigating, but we couldn’t come to find an actual way to suggest implementing this. Of course it would be nice for the interactions between parties to be simpler, but that currently isn’t the case and there isn’t a magic fix for it.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Solution needs to be possible to implement</li>
+            <li>Chaos between parties in healthcare is frustrating</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

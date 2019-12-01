@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Too Many Players</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/toomany.jpg" alt="Look at how many there are that's honestly just silly">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Too Many Players</h1>
+        <p class="item-price">$100.00</p>
+        <p class="item-description">In most transactions, there are two parties. One to buy, one to sell. In healthcare, for whatever reason, there are a lot more parties involved. There’s the patient, the hospital, any specialists, the insurance company, the company hired by the insurance company to analyze the bill and sometimes negotiate on the insurance company’s behalf, the collection agencies, etc. Having so many players must complicate the process.</p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>We couldn’t verify that having so many parties involved causes inefficiency, but by talking to people we did find that it is a source of frustration. Having to call several different companies to figure out what’s going on with a bill is not a positive experience.</p>
+          <h2>Reviews</h2>
+          <p>8.8/10 – healthcare doesn’t behave like other markets and this is one of the reasons. It seems unlikely that we’d be able to remove one of the parties – it isn’t like insurance is going to go away overnight. However, there may be a way to streamline the relationship between these parties to improve the patient experience.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Patients are frustrated with the complex system</li>
+            <li>Removing parties from the process is likely not possible</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

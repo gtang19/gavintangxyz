@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Hidden Costs</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/hiddencost.jpeg" alt="Most of the ice is underneath the water">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Hidden Costs</h1>
+        <p class="item-price">$2000.00</p>
+        <p class="item-description">The healthcare pricing model is very ambiguous. You know you’re going to be paying something, probably, at some point, but you often don’t know exactly when, or how much. When the bill comes, it can be a surprise what you’re paying for.</p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>We heard several stories where some hidden cost came out of nowhere. People value transparency in the billing process, and the current system obscures prices. Nobody likes hidden costs to begin with, but when combined with services that are necessary to stay healthy, people feel powerless in the system.</p>
+          <h2>Reviews</h2>
+          <p>9/10 – We think this is a large part of the overall problem. Frustrations regarding price in part due to how high costs are. Lowering costs would be fantastic, but not necessarily achievable without restructuring the entire healthcare model. Making the pricing more transparent is more obtainable.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Price transparency is important</li>
+            <li>People feel more secure when they know a price</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

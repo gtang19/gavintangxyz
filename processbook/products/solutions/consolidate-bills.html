@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Consolidate Bills</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/consolidate.jpg" alt="Consolidation">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Consolidate Bills</h1>
+        <p class="item-price">$100.00</p>
+        <p class="item-description">
+            Why are there so many bills? Can’t we just take all of them and put them into one? The whole “get a bunch of spam bills and then finally a real one” is annoying, and nobody wants it. Is there some legal requirement to send all this information? Why not just talk to the insurance company and agree to just send one bill at the end?
+        </p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>This proposal is a policy to only send one bill and convince other parties not to send anything unless explicitly requested. This would simplify one of the most frustrating aspects of billing. If there’s less frustration, there’s less reason to distrust the process. That constant billing spam is one of the largest losses of credibility.</p>
+          <h2>Reviews</h2>
+          <p>9/10 – this is almost there. It just feels incomplete. The solution should deal with the long period of time the billing process takes; simplifying it would be valuable.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Patients don't want several bills</li>
+            <li>Frustration is linked to distrust</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

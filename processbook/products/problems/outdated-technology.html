@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Outdated Technology</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/oldpc.jpg" alt="An old computer">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Outdated Technology</h1>
+        <p class="item-price">$20.00</p>
+        <p class="item-description">Why is it that healthcare portals always look like they’re from the early days of the internet? Why haven’t they been modernized, and are there any glaring inefficiencies from using old technology?</p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>The crappy design of medical applications like MyChart made us wonder what else in healthcare was outdated, and why they were like this. We found that there wasn’t really any competitive pressure for improving these aspects of the healthcare process. Patients are frustrated by the outdated technology, but don’t care about it enough to switch hospitals over it.</p>
+          <h2>Reviews</h2>
+          <p>6/10 – ugly webapp designs are very frustrating, but there seems to be an underlying issue that prevents investing in more up to date technology from being worthwhile. We think the issue might be rooted in healthcare tradition and culture but weren’t able to gain the insight to delve deeper.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Healthcare doesn't behave like other markets</li>
+            <li>A good user experience is appreciated</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

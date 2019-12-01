@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>MyBill</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/mybill.png" alt="The name is simple and boring, just like how solutions should be">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">MyBill</h1>
+        <p class="item-price">$0.00</p>
+        <p class="item-description">
+            Our flagship solution, MyBill asks a simple question. Why can’t healthcare be like everything else? Every other industry provides a price upfront. You see the price, it makes sense, and you pay it. There is no six month billing process where the company figures out exactly what your purchase cost them, they just make an estimate that’s close enough, and charges that, accepting that any variance from actual cost is reasonable risk.
+        </p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>We assume that healthcare can’t be like other industries because it’s “too complicated.” That’s dumb, every industry has its own complications. Yes, negotiating with insurance may add a degree of uncertainty that other industries may not have to deal with. However, with proper implementation, machine learning can address this concern.</p>
+          <p>Machine learning is incredible at recognizing patterns and making predictions. A machine learning algorithm could theoretically look at a set of treatments, patient information, and an insurance company and predict with a high degree of accuracy what the final price to the patient would be after insurance. Then the price could just be offered to the patient with no questions asked. This would mean the patient doesn’t need to deal with the billing process at all, simplifying the whole process by removing the patient.</p>
+          <h2>Reviews</h2>
+          <p>10/10 – This is the solution that seems obvious now but wasn’t before. It was hidden in plain sight. Offering a bill immediately and just accepting the risk significantly improves the patient experience, and doesn’t have major costs in the long run.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Machine learning is very cool</li>
+            <li>Removing the patient works because the patient doesn't want to be involved</li>
+          </ul>
+          <a href="/cart.html" id="buy-button"
+            class= "btn-pink">
+            Add to Cart
+        </a>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

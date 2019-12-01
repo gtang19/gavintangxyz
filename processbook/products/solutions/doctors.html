@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Doctors Explain</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/doctor.jpg" alt="Doctor">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Doctors Explain</h1>
+        <p class="item-price">$35.00</p>
+        <p class="item-description">
+            Patients establish relationships with their doctors, so they are a relatively trusted party. What if the doctors were to stay with the patient through the billing process? Answer any questions they might have, clarify the process, etc.
+        </p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>Doctors know what treatments the patient has received, so they’d be best able to explain why certain figures appear on the bill. For the patient, doctors are credible, but still connected to the healthcare process. Using a trustworthy figure could help to improve the perception of healthcare administration overall.</p>
+          <h2>Reviews</h2>
+          <p>0/10 – after reading some of the comments provided in the database, this is a terrible idea. People are filled with rage. The time of doctors is better spent helping people, not trying to diffuse angry situations.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>People are really mad at bills</li>
+            <li>No trustworthy face can defend a broken system</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Online Community</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/community.png" alt="A community">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Online Community</h1>
+        <p class="item-price">$25.00</p>
+        <p class="item-description">
+          What if there were an online community to talk to about the process? A group of people going through similar medical situations, so patients can help each other. This would provide a platform that is in the hands of the patient, so patients feel like they have allies.
+        </p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>The online community would include discussion, information, and just general support. There would likely need to be some kind of incentive to use the platform. Doctors and administrative staff could also answer questions and help clarify the process.</p>
+          <h2>Reviews</h2>
+          <p>4/10 – creating a tool to stand up against the billing process just complicates the process further. For the solution to really work, healthcare administration needs to pivot so that it isn’t the villain.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>People need to be incentivized to use something new</li>
+            <li>Healthcare administration can't be antagonized</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>

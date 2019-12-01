@@ -1,0 +1,209 @@
+.card {
+  display: block;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background-color: #eaeaea;
+  color: #17181A;
+}
+.item-info {
+  text-align: left;
+  padding: 20px;
+}
+
+.subtext {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.warning {
+  font-size: 14px;
+  color: #772222;
+  display: none;
+}
+
+/*
+Image slider styling
+*/
+.item-image {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: auto;
+}
+.item-image img {
+  display: inline-block;
+}
+.image-popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Checkbox styling */
+.check-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 0;
+  width: 60px;
+  margin-top: 10px;
+}
+
+.check-container p, .check-container input, .check-container span {
+}
+
+.check-container p {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  color: #242628;
+  font-size: 16px;
+}
+
+.check-container input {
+  position: relative;
+  opacity: 0;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  border: 5px solid #011123;
+}
+#red-check .checkmark {border-color: #AD1B53;}
+#orange-check .checkmark {border-color: #FF7800;}
+#yellow-check .checkmark {border-color: #F3FC3F;}
+#green-check .checkmark {border-color: #32C45B;}
+#blue-check .checkmark {border-color: #18AFDB;}
+#purple-check .checkmark {border-color: #5D2371;}
+#pink-check .checkmark {border-color: #F2A1B6;}
+
+
+@media only screen and (min-width: 768px) {
+  .check-container:hover input ~ .checkmark {
+    background-color: #82868A5f;
+  }
+  #red-check:hover input ~ .checkmark {background-color: #AD1B535f;}
+  #orange-check:hover input ~ .checkmark {background-color: #FF78005f;}
+  #yellow-check:hover input ~ .checkmark {background-color: #F3FC3F5f;}
+  #green-check:hover input ~ .checkmark {background-color: #32C45B5f;}
+  #blue-check:hover input ~ .checkmark {background-color: #18AFDB5f;}
+  #purple-check:hover input ~ .checkmark {background-color: #5D23715f;}
+  #pink-check:hover input ~ .checkmark {background-color: #F2A1B65f;}
+}
+
+
+.check-container input:checked ~ .checkmark {
+  background-color: #011123;
+}
+#red-check input:checked ~ .checkmark {background-color: #AD1B53;}
+#orange-check input:checked ~ .checkmark {background-color: #FF7800;}
+#yellow-check input:checked ~ .checkmark {background-color: #F3FC3F;}
+#green-check input:checked ~ .checkmark {background-color: #32C45B;}
+#blue-check input:checked ~ .checkmark {background-color: #18AFDB;}
+#purple-check input:checked ~ .checkmark {background-color: #5D2371;}
+#pink-check input:checked ~ .checkmark {background-color: #F2A1B6;}
+
+
+.complexity {
+  margin-top: 10px;
+}
+.complexity h3, .complexity p {padding: 3px 0;}
+
+#explanation {
+
+}
+textarea {
+  width: 80%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .grid {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto,60em) 1fr;
+    grid-gap: 1em;
+
+  }
+  .container {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  .item-image {
+    display: inline-block;
+    margin: 20px;
+    padding-top: 30px;
+  }
+  img {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }

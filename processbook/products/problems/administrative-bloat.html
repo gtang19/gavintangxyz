@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/javascript/jquery-3.3.1.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Chivo|Julius+Sans+One|Oxygen|Questrial|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/core.css">
+  <link rel="stylesheet" href="/styles/product.css">
+
+  <title>Administrative Bloat</title>
+</head>
+<body>
+  <div class="navbar-placeholder"></div>
+  <main class="grid">
+    <div class="container card">
+      <div class="item-image">
+        <img src="/images/trash.jpg" alt="Bloated garbage">
+        <img src="/images/dumpster-fire.jpg" alt="oh no">
+      </div>
+      <div class="image-popup">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modalImg">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="item-info">
+        <h1 class="item-name">Administrative Bloat</h1>
+        <p class="item-price">$15.00</p>
+        <p class="item-description">Healthcare is expensive… way more expensive than in other countries. That means that somewhere, there is some great inefficiency, right? Somewhere in the system there must be some sort of waste that could be corrected to bring down prices for everybody.</p>
+        <div class="item-buy">
+          <h2>Specifications</h2>
+          <p>Through research, we attempted to find any significant indicators of fraud, or large-scale inefficiency. For the most part, we found that the cost of developing new medical technology is just high, and inefficiency does not contribute significantly to the higher prices. However, when talking to patients, there is a perception that their money is being wasted.</p>
+          <h2>Reviews</h2>
+          <p>5.5/10 – healthcare being expensive is an issue. However, it is too broad of an issue, there are deeper, more specific roots that would be better to try to solve.</p>
+          <h2>Key Insights</h2>
+          <ul>
+            <li>Perception doesn't always match reality</li>
+            <li>The perception of healthcare administration is really bad</li>
+          </ul>
+          <button id="buy-button"
+            class= "btn-disabled">
+            Out of Stock
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/javascript/navbar.js"></script>
+  <script src="/javascript/product.js"></script>
+</body>
+</html>
